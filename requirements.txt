@@ -1,7 +1,12 @@
 tqdm
 timer
 keras
+tensorflow
 sklearn
 opencv-python
 ffmpeg
-
+numpy
+pandas
+scikit-video
+cmake
+dlib
