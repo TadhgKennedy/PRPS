@@ -218,8 +218,6 @@ def log_creater(output_dir):
     log.info('creating {}'.format(final_log_file))
     return log
 
-model.load_weights('/home/svu/e0703584/model24/model_weights-improvement-01-0.09.hdf5')
-
 """## **Traning Process and Model Saving**"""
 # checkpoint
 filepath="/hpctmp/e0703584/training/model24/model_weights-improvement-{epoch:02d}-{val_accuracy:.2f}.hdf5"
